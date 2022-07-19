@@ -366,6 +366,7 @@ header .gnb .ham:hover span {
 
 .history ._inner .swiper {
     padding-top: 3%;
+    z-index: -1;
 }
 /* history end */
 /* 반응형 */
@@ -408,6 +409,7 @@ header .gnb .ham:hover span {
     display: flex;
     flex-wrap: wrap;
     height: 70%;
+    z-index: -1;
 }
 
 .aos_ex ._inner > div {
