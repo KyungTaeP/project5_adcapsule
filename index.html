@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>애드캡슐소프트</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
-    <link rel="stylesheet" href="./css/swiper.css">
-    <link rel="stylesheet" href="./css/common.css">
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-    <script src="./js/swiper.js" defer></script>
+    <link rel="stylesheet" href="./css/common.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/path/to/parallax.js" defer></script>
+
     <script src="./js/common.js" defer></script>
   </head>
 
@@ -95,84 +99,122 @@
           <img src="./img/since.png" alt="" />
         </div>
         <!-- Swiper -->
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="./img/history_slide1_1.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_2.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_3.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_4.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_5.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_6.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_7.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_8.png"></div>
-          <div class="swiper-slide"><img src="./img/history_slide1_9.png"></div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_4.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_5.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_6.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_7.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_8.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/history_slide1_9.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
       </div>
     </section>
     <section class="txt_title3">
       <div class="_inner">
         <p>
-          애드캡슐은 지금도 함께<br>
+          애드캡슐은 지금도 함께<br />
           <span>성장</span>하고 있습니다
         </p>
       </div>
     </section>
     <section class="aos_ex">
       <div class="_inner">
-        <div class="com_sin" data-aos="fade-up" data-aos-offset="350" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+        <div
+          class="com_sin"
+          data-aos="fade-up"
+          data-aos-offset="350"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div>
             <p>회사설립 <span>24주년</span></p>
             <p>애드캡슐은1999년 설립해 약 24년간 운영되고있습니다</p>
           </div>
           <div>
-            <img src="./img/24.png" alt="24주년">
+            <img src="./img/24.png" alt="24주년" />
           </div>
         </div>
 
-        <div class="contract" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+        <div
+          class="contract"
+          data-aos="fade-down"
+          data-aos-offset="300"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div>
             <p>평균 계약기간 <span>12년</span></p>
             <p>계약한 기업들은 평군적으로 12.6년 계약을 유지했습니다</p>
           </div>
           <div>
-            <img src="./img/12.png" alt="12주년">
+            <img src="./img/12.png" alt="12주년" />
           </div>
         </div>
 
-        <div class="sales" data-aos="fade-up-right" data-aos-offset="400" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+        <div
+          class="sales"
+          data-aos="fade-up-right"
+          data-aos-offset="400"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div>
             <p>21년 매출 <span>190억</span></p>
             <p>애드캡슐의 3년간 평균 185억의 매출을 달성</p>
           </div>
           <div>
-            <img src="./img/190.png" alt="190억">
+            <img src="./img/190.png" alt="190억" />
           </div>
         </div>
 
-        <div class="join" data-aos="fade-up-left" data-aos-offset="450" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+        <div
+          class="join"
+          data-aos="fade-up-left"
+          data-aos-offset="450"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <div>
             <p>평균 근속 <span>7년</span></p>
             <p>애드캡슐소프트의 평균 근속년수는 7.2년 입니다</p>
           </div>
           <div>
-            <img src="./img/7.png" alt="7년">
+            <img src="./img/7.png" alt="7년" />
           </div>
         </div>
       </div>
-
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
     </section>
 
     <section class="txt_title4">
       <div class="_inner">
         <p>
-          애드캡슐은 기본을 지키는 철학을<br>
+          애드캡슐은 기본을 지키는 철학을<br />
           기반으로 <span>서비스의 완성도</span>를 높입니다
         </p>
       </div>
@@ -180,8 +222,122 @@
 
     <section class="com_list">
       <div class="_inner">
-        
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="./img/company_list.png"
+        ></div>
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="./img/ci1.png"
+        ></div>
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="./img/ci2.png"
+        ></div>
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="./img/ci3.png"
+        ></div>
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="./img/ci4.png"
+        ></div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="/path/to/parallax.js"></script>
+    </section>
+
+    <section class="txt_title5">
+      <div class="group_img">
+        <img src="./img/group_img.png" alt="" />
+      </div>
+      <div
+        class="group_txt"
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
+        <p>
+          사람이 만든 <span>가치</span>의 <span>중요함</span>을 알고있는,<br />
+          저희는 애드캡슐 입니다
+        </p>
       </div>
     </section>
+    <section class="project_mail">
+      <div class="_inner">
+        <div class="career">
+          <p>Career</p>
+          <p>채용 지원하기 career@dacapsule.co.kr</p>
+        </div>
+        <div class="project">
+          <p>Project</p>
+          <p>서비스 구축 & 운영 문의 info@dacapsule.co.kr</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="_inner">
+        <div class="company_ex">
+          <div class="com">
+            <p>
+              주식회사 애드캡슐소프트<br />
+              대표 정희연
+            </p>
+            <p>
+              서울특별시 서초구 통광로12길84<br>
+              성산관 4~5층(06565) 
+            </p>
+            <div class="copy2">
+              <p>&copy; 2022Adcapsule. All Rights Reserved.</p>
+            </div>
+          </div>
+          <div class="other_ex">
+            <p>채용공고 확인하기</p>
+            <p>애드캡슐 ZEP 방문하기</p>
+            <p>애드캡슐 Youtube 방문하기</p>
+            <div class="com_img">
+              <p>
+                <img
+                  src="./img/best_family_management.png"
+                  alt=""
+                />가족친화인증기업
+              </p>
+              <p>
+                <img src="./img/Youth_friendl.png" alt="" />청년친화강소기업
+              </p>
+            </div>
+            <div class="num">
+              <p>M info@dacapsule.co.kr</p>
+              <p>T 02 544 0902</p>
+              <p>F 070 8230 6290</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
