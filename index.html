@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/path/to/parallax.js" defer></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/path/to/parallax.js" defer></script> -->
 
     <script src="./js/common.js" defer></script>
   </head>
@@ -22,7 +22,7 @@
   <body>
     <header>
       <div class="gnb">
-        <h1><img src="./img/logo.png" alt="로고" /></h1>
+        <h1 class="logo"><img src="./img/logo.png" alt="로고" /></h1>
         <div class="ham">
           <span></span>
           <span></span>
@@ -32,6 +32,11 @@
             <li><a href="#">MAIN</a></li>
             <li><a href="#">CAREER</a></li>
             <li><a href="#">WORK</a></li>
+            <li>
+              <span>M info@dacapsule.co.kr</span>
+              <span>T 02 544 0902</span>
+              <span>F 070 8230 6290</span>
+            </li>
           </ul>
         </nav>
       </div>
@@ -222,7 +227,23 @@
 
     <section class="com_list">
       <div class="_inner">
-        <div
+        <div class="bg">
+          <img src="./img/company_list.png" alt="">
+        </div>
+        <div class="ci ci1">
+          <img src="./img/ci1.png" alt="">
+        </div>
+        <div class="ci ci2">
+          <img src="./img/ci2.png" alt="">
+        </div>
+        <div class="ci ci3">
+          <img src="./img/ci3.png" alt="">
+        </div>
+        <div class="ci ci4">
+          <img src="./img/ci4.png" alt="">
+        </div>
+      </div>
+        <!-- <div
           class="parallax-window"
           data-parallax="scroll"
           data-image-src="./img/company_list.png"
@@ -246,10 +267,10 @@
           class="parallax-window"
           data-parallax="scroll"
           data-image-src="./img/ci4.png"
-        ></div>
+        ></div> -->
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="/path/to/parallax.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="/path/to/parallax.js"></script> -->
     </section>
 
     <section class="txt_title5">
@@ -289,8 +310,8 @@
               대표 정희연
             </p>
             <p>
-              서울특별시 서초구 통광로12길84<br>
-              성산관 4~5층(06565) 
+              서울특별시 서초구 통광로12길84<br />
+              성산관 4~5층(06565)
             </p>
             <div class="copy2">
               <p>&copy; 2022Adcapsule. All Rights Reserved.</p>
@@ -312,9 +333,9 @@
               </p>
             </div>
             <div class="num">
-              <p>M info@dacapsule.co.kr</p>
-              <p>T 02 544 0902</p>
-              <p>F 070 8230 6290</p>
+              <span>M info@dacapsule.co.kr</span>
+              <span>T 02 544 0902</span>
+              <span>F 070 8230 6290</span>
             </div>
           </div>
         </div>
@@ -325,6 +346,10 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
+        //자동 재생 여부
+        autoplay: true,
+        //반복 재생 여부
+        loop: true,
         pagination: {
           el: ".swiper-pagination",
           type: "progressbar",
